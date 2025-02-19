@@ -256,7 +256,7 @@ function App() {
                 onClick={() => setShowFullBio(!showFullBio)}
                 className="text-gray-600 hover:text-gray-900 underline transition-colors"
               >
-                {showFullBio ? 'Show less' : 'Read more'}
+                {showFullBio ? 'Voir moins' : 'Voir plus'}
               </button>
 
               <div className="flex gap-4 mt-4">
