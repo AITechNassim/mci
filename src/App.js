@@ -155,13 +155,6 @@ function App() {
     "pdfUrl": "https://drive.google.com/file/d/1mqX58Spn6J8EYuUPl-dvoTYrldDjoId_/view?usp=sharing"
   },
   {
-    "title": "Le Modèle IS-LM",
-    "description": "Présentation du modèle IS-LM et son application dans l'analyse macroéconomique.",
-    "category": "Macroéconomie",
-    "publishDate": "2012-02-01",
-    "pdfUrl": "https://drive.google.com/file/d/1NLurAAHBdJS8hjZQV4mCdUAdFfCLNpJR/view?usp=sharing"
-  },
-  {
     "title": "Le Mécanisme d'Offre de Monnaie en Situation d'Excès Structurel de Liquidités",
     "description": "Une analyse de l'offre de monnaie en Algérie et des mécanismes économiques sous-jacents.",
     "category": "Économie Monétaire",
@@ -286,7 +279,7 @@ function App() {
       {/* Articles Section */}
       <section className="py-4 px-8 bg-gray-50">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold text-gray-900 mb-4 text-center">Articles publiées</h2>
+          <h2 className="text-3xl font-bold text-gray-900 mb-4 text-center">Articles publiés</h2>
 
           {/* Search Bar */}
           <div className="relative max-w-xl mx-auto mb-8">
