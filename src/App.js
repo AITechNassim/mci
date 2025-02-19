@@ -25,28 +25,28 @@ function App() {
     "title": "Cadre Institutionnel et Légal du Contrôle et de la Supervision de l'Activité Bancaire",
     "description": "Présentation des structures réglementaires encadrant le secteur bancaire en Algérie.",
     "category": "Banque & Réglementation",
-    "publishDate": "2024-02-19",
+    "publishDate": "2018-01-01",
     "pdfUrl": "https://drive.google.com/file/d/12vNH_VtvwoiK2jb1gGdUjzLGtXQGchLP/view?usp=drive_link"
   },
   {
     "title": "Mise en Place du Comité d'Audit Selon le Règlement 11-08",
     "description": "Analyse des dispositions réglementaires concernant la création du Comité d'Audit dans les banques.",
     "category": "Audit & Contrôle",
-    "publishDate": "2024-02-19",
+    "publishDate": "2014-04-03",
     "pdfUrl": "https://drive.google.com/file/d/1QnK1vIbaYRi3EVfbnT-b9JQCIiqVWGk4/view?usp=sharing"
   },
   {
     "title": "Évolution de l'Économie Algérienne (1985-2014)",
     "description": "Analyse macroéconomique des périodes de crise, de stabilisation et de relance en Algérie.",
     "category": "Économie",
-    "publishDate": "2024-02-19",
+    "publishDate": "2016-12-01",
     "pdfUrl": "https://drive.google.com/file/d/1545PFaOPDmTQBnkT94SaybHvUzMVitBI/view?usp=sharing"
   },
   {
     "title": "Réglementation Prudentielle 2016-2017",
     "description": "Présentation du cadre réglementaire prudentiel bancaire en Algérie et des normes internationales.",
     "category": "Banque & Réglementation",
-    "publishDate": "2024-02-19",
+    "publishDate": "2018-01-01",
     "pdfUrl": "https://drive.google.com/file/d/1pwN3X_WJ5iNOGxC5QkMaithAXaSo3HtV/view?usp=sharing"
   },
   {
