@@ -232,18 +232,32 @@ function App() {
             "pdfUrl": "https://drive.google.com/file/d/1Lksj5XiQgG2nhcE--MQ9OVzwrneYHYD1/view?usp=sharing"
         },
         {
-            "title": "Cours sur la théorie économique globale",
-            "description": "Théories et modèles d'équilibre et de déséquilibre (OPU).",
-            "category": "Économie globale",
+            "title": "Conférences sur la théorie macroéconomique - Tome 1",
+            "description": "Théories et modèles d'équilibre et de déséquilibre (Publié par l'OPU).",
+            "category": "Macroéconomie",
             "publishDate": "2003-01-01",
-            "pdfUrl": "https://drive.google.com/file/d/1SzG23JnaPlOCA0bWgmLEgIZZ2gPlp46P/view?usp=sharing"
+            "pdfUrl": "https://drive.google.com/file/d/1MQr2eCa_GFHE0IMymnLidI6UFpXPOEKh/view?usp=sharing"
+        },
+        {
+            "title": "Conférences sur la théorie macroéconomique - Tome 2",
+            "description": "Principales fonctions macroéconomiques du secteur réel (Publié par l'OPU).",
+            "category": "Macroéconomie",
+            "publishDate": "2003-01-01",
+            "pdfUrl": "https://drive.google.com/file/d/1Lc9O5wBr0xfUGGIdDb9VJMJ8YGWEjgX6/view?usp=sharing"
+        },
+        {
+            "title": "Conférences sur la théorie macroéconomique - Tome 3",
+            "description": "Principales fonctions macroéconomiques du secteur monétaire (Publié par l'OPU).",
+            "category": "Macroéconomie",
+            "publishDate": "2003-01-01",
+            "pdfUrl": "https://drive.google.com/file/d/1CiAW2N3C40nUjo6VslSi-2C8zs9DvSG2/view?usp=sharing"
         },
         {
             "title": "Internationalisation du Capital et Industrialisation du Tiers-monde",
             "description": "Un essai de reformulation de la problématique du sous-développement à travers l'exemple algérien.",
             "category": "Économie monétaire",
             "publishDate": "1981-01-01",
-            "pdfUrl": "https://drive.google.com/file/d/1T30CqnCyT2GD2MrScqapFkpRhxpCjBm-/view?usp=sharing"
+            "pdfUrl": "https://drive.google.com/file/d/1n7n4LAUnzc7v1zikfgxOyoUbKI2Exh4U/view?usp=sharing"
         }
     ];
 
