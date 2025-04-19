@@ -47,7 +47,7 @@ function App() {
             "description": "Présentation des bases de la macroéconomie et des analyses économiques.",
             "category": "Économie",
             "publishDate": "2018-01-01",
-            "pdfUrl": "https://drive.google.com/file/d/1pwN3X_WJ5iNOGxC5QkMaithAXaSo3HtV/view?usp=sharing"
+            "pdfUrl": "https://drive.google.com/file/d/1aWeVrivpHcPpKTDWGW4TI2K4mDAxhB8y/view?usp=drive_link"
         },
         {
             "title": "Contrôle Interne Bancaire",
