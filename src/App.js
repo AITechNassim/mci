@@ -22,28 +22,28 @@ function App() {
     // Your articles data
     const articles = [
         {
-            "title": "Politique Macroprudentielle",
+            "title": "Politiques monétaire et macroprudentielle",
             "description": "Présentation des concepts de stabilité financière et des réglementations macroprudentielles.",
             "category": "Banque & Réglementation",
             "publishDate": "2022-11-01",
             "pdfUrl": "https://drive.google.com/file/d/1lEev8RNzOO_kjo9A8BdOC9lfpjmHd4CV/view?usp=sharing"
         },
         {
-            "title": "Réglementation Prudentielle 2016-2017",
+            "title": "Supervision et contrôle Bancaires",
             "description": "Présentation du cadre réglementaire prudentiel bancaire en Algérie et des normes internationales.",
             "category": "Banque & Réglementation",
             "publishDate": "2018-01-01",
             "pdfUrl": "https://drive.google.com/file/d/1pwN3X_WJ5iNOGxC5QkMaithAXaSo3HtV/view?usp=sharing"
         },
         {
-            "title": "Cadre Institutionnel et Légal du Contrôle et de la Supervision de l'Activité Bancaire",
+            "title": "Présentation cadre institutionnele et légal du contrôle et de supervision de l'activité bancaire",
             "description": "Présentation des structures réglementaires encadrant le secteur bancaire en Algérie.",
             "category": "Banque & Réglementation",
             "publishDate": "2018-01-01",
             "pdfUrl": "https://drive.google.com/file/d/12vNH_VtvwoiK2jb1gGdUjzLGtXQGchLP/view?usp=drive_link"
         },
         {
-            "title": "Cours de Macroéconomie - Partie 2",
+            "title": "Macroéconomie Générale",
             "description": "Présentation des bases de la macroéconomie et des analyses économiques.",
             "category": "Économie",
             "publishDate": "2018-01-01",
