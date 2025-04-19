@@ -22,6 +22,34 @@ function App() {
     // Your articles data
     const articles = [
         {
+            "title": "Internationalisation du Capital et Industrialisation du Tiers-monde",
+            "description": "Un essai de reformulation de la problématique du sous-développement à travers l'exemple algérien.",
+            "category": "Économie monétaire",
+            "publishDate": "1981-01-01",
+            "pdfUrl": "https://drive.google.com/file/d/1n7n4LAUnzc7v1zikfgxOyoUbKI2Exh4U/view?usp=sharing"
+        },
+        {
+            "title": "Conférences sur la théorie macroéconomique - Tome 1",
+            "description": "Théories et modèles d'équilibre et de déséquilibre (Publié par l'OPU).",
+            "category": "Macroéconomie",
+            "publishDate": "2003-01-01",
+            "pdfUrl": "https://drive.google.com/file/d/1MQr2eCa_GFHE0IMymnLidI6UFpXPOEKh/view?usp=sharing"
+        },
+        {
+            "title": "Conférences sur la théorie macroéconomique - Tome 2",
+            "description": "Principales fonctions macroéconomiques du secteur réel (Publié par l'OPU).",
+            "category": "Macroéconomie",
+            "publishDate": "2003-01-01",
+            "pdfUrl": "https://drive.google.com/file/d/1Lc9O5wBr0xfUGGIdDb9VJMJ8YGWEjgX6/view?usp=sharing"
+        },
+        {
+            "title": "Conférences sur la théorie macroéconomique - Tome 3",
+            "description": "Principales fonctions macroéconomiques du secteur monétaire (Publié par l'OPU).",
+            "category": "Macroéconomie",
+            "publishDate": "2003-01-01",
+            "pdfUrl": "https://drive.google.com/file/d/1CiAW2N3C40nUjo6VslSi-2C8zs9DvSG2/view?usp=sharing"
+        },
+        {
             "title": "Politiques monétaire et macroprudentielle",
             "description": "Présentation des concepts de stabilité financière et des réglementations macroprudentielles.",
             "category": "Banque & Réglementation",
@@ -36,7 +64,7 @@ function App() {
             "pdfUrl": "https://drive.google.com/file/d/1pwN3X_WJ5iNOGxC5QkMaithAXaSo3HtV/view?usp=sharing"
         },
         {
-            "title": "Présentation cadre institutionnele et légal du contrôle et de supervision de l'activité bancaire",
+            "title": "Cadre institutionnele et légal du contrôle et de supervision de l'activité bancaire",
             "description": "Présentation des structures réglementaires encadrant le secteur bancaire en Algérie.",
             "category": "Banque & Réglementation",
             "publishDate": "2018-01-01",
@@ -50,11 +78,11 @@ function App() {
             "pdfUrl": "https://drive.google.com/file/d/1aWeVrivpHcPpKTDWGW4TI2K4mDAxhB8y/view?usp=drive_link"
         },
         {
-            "title": "Contrôle Interne Bancaire",
+            "title": "Présentation Contrôle Interne Bancaire",
             "description": "Explication du cadre légal et des bonnes pratiques en matière de contrôle interne bancaire.",
             "category": "Audit & Contrôle",
             "publishDate": "2018-01-01",
-            "pdfUrl": "https://drive.google.com/file/d/1pwN3X_WJ5iNOGxC5QkMaithAXaSo3HtV/view?usp=sharing"
+            "pdfUrl": "https://drive.google.com/file/d/17Dh47qrOdj0RGDz07OuqIK36QQOKeOFN/view?usp=sharing"
         },
         {
             "title": "Modèle AS-AD et Courbe de Phillips",
@@ -64,28 +92,7 @@ function App() {
             "pdfUrl": "https://drive.google.com/file/d/1KgnuBXG6HE2KYX9nehLgEoC09Fx2O137/view?usp=sharing"
         },
         {
-            "title": "Économie Ouverte - Macro II",
-            "description": "Étude des équilibres macroéconomiques en économie ouverte.",
-            "category": "Économie",
-            "publishDate": "2018-01-01",
-            "pdfUrl": "https://drive.google.com/file/d/1CN7mJPaiFo1a2f6Agla25THfM93FU_S5/view?usp=sharing"
-        },
-        {
-            "title": "Économie Algérienne - Macro II",
-            "description": "Analyse approfondie de l'économie algérienne et des différentes phases de son évolution.",
-            "category": "Économie",
-            "publishDate": "2018-01-01",
-            "pdfUrl": "https://drive.google.com/file/d/1ZAGlY0Mqc5rWIooSxMtADMKZxaTpgmOV/view?usp=sharing"
-        },
-        {
-            "title": "Économie Algérienne (1985-2014)",
-            "description": "Étude macroéconomique de l'évolution de l'économie algérienne, entre crise, stabilisation et relance.",
-            "category": "Économie",
-            "publishDate": "2018-01-01",
-            "pdfUrl": "https://drive.google.com/file/d/1ZAGlY0Mqc5rWIooSxMtADMKZxaTpgmOV/view?usp=sharing"
-        },
-        {
-            "title": "Évolution de l'Économie Algérienne (1985-2014)",
+            "title": "Évolution de l'Économie Algérienne (1985-2014) - Une analyse macroéconomique",
             "description": "Analyse macroéconomique des périodes de crise, de stabilisation et de relance en Algérie.",
             "category": "Économie",
             "publishDate": "2016-12-01",
@@ -99,7 +106,7 @@ function App() {
             "pdfUrl": "https://drive.google.com/file/d/1y5N9yBJ3HZ76qXmNXvdhOQnJQ44ntf6u/view?usp=sharing"
         },
         {
-            "title": "Couverture du Risque de Change",
+            "title": "Nécessité, opportunité et possibilité d’activation du mécanisme de couverture du risque de change en Algérie",
             "description": "Discussion sur la nécessité, les opportunités et la faisabilité d'un mécanisme de couverture du risque de change pour les entreprises et banques algériennes.",
             "category": "Finance internationale",
             "publishDate": "2016-03-31",
@@ -109,13 +116,6 @@ function App() {
             "title": "Mise en Place du Comité d'Audit Selon le Règlement 11-08",
             "description": "Analyse des dispositions réglementaires concernant la création du Comité d'Audit dans les banques.",
             "category": "Audit & Contrôle",
-            "publishDate": "2014-04-03",
-            "pdfUrl": "https://drive.google.com/file/d/1QnK1vIbaYRi3EVfbnT-b9JQCIiqVWGk4/view?usp=sharing"
-        },
-        {
-            "title": "Mise en Place du Comité d'Audit dans les Banques",
-            "description": "Analyse des dispositions réglementaires sur la mise en place des comités d'audit dans les banques algériennes.",
-            "category": "Audit et Gouvernance",
             "publishDate": "2014-04-03",
             "pdfUrl": "https://drive.google.com/file/d/1QnK1vIbaYRi3EVfbnT-b9JQCIiqVWGk4/view?usp=sharing"
         },
@@ -169,14 +169,14 @@ function App() {
             "pdfUrl": "https://drive.google.com/file/d/1FmoLOuCoWAQiIdEqXiTRBi6qeCFH-BIU/view?usp=sharing"
         },
         {
-            "title": "Le Comportement de Consommation",
+            "title": "La Fonction de Consommation",
             "description": "Étude macroéconomique sur la fonction de consommation et ses déterminants en Algérie.",
             "category": "Macroéconomie",
             "publishDate": "2012-02-01",
             "pdfUrl": "https://drive.google.com/file/d/1udcK3RCxkOeaIbRkyCI0XVozEoTp2-4b/view?usp=sharing"
         },
         {
-            "title": "Indépendance de la Banque d'Algérie",
+            "title": "De l'Indépendance de la Banque d'Algérie",
             "description": "Analyse des enjeux institutionnels et économiques liés à l'indépendance de la Banque d'Algérie.",
             "category": "Banque et finance",
             "publishDate": "2011-01-01",
@@ -231,34 +231,6 @@ function App() {
             "publishDate": "2007-11-01",
             "pdfUrl": "https://drive.google.com/file/d/1Lksj5XiQgG2nhcE--MQ9OVzwrneYHYD1/view?usp=sharing"
         },
-        {
-            "title": "Conférences sur la théorie macroéconomique - Tome 1",
-            "description": "Théories et modèles d'équilibre et de déséquilibre (Publié par l'OPU).",
-            "category": "Macroéconomie",
-            "publishDate": "2003-01-01",
-            "pdfUrl": "https://drive.google.com/file/d/1MQr2eCa_GFHE0IMymnLidI6UFpXPOEKh/view?usp=sharing"
-        },
-        {
-            "title": "Conférences sur la théorie macroéconomique - Tome 2",
-            "description": "Principales fonctions macroéconomiques du secteur réel (Publié par l'OPU).",
-            "category": "Macroéconomie",
-            "publishDate": "2003-01-01",
-            "pdfUrl": "https://drive.google.com/file/d/1Lc9O5wBr0xfUGGIdDb9VJMJ8YGWEjgX6/view?usp=sharing"
-        },
-        {
-            "title": "Conférences sur la théorie macroéconomique - Tome 3",
-            "description": "Principales fonctions macroéconomiques du secteur monétaire (Publié par l'OPU).",
-            "category": "Macroéconomie",
-            "publishDate": "2003-01-01",
-            "pdfUrl": "https://drive.google.com/file/d/1CiAW2N3C40nUjo6VslSi-2C8zs9DvSG2/view?usp=sharing"
-        },
-        {
-            "title": "Internationalisation du Capital et Industrialisation du Tiers-monde",
-            "description": "Un essai de reformulation de la problématique du sous-développement à travers l'exemple algérien.",
-            "category": "Économie monétaire",
-            "publishDate": "1981-01-01",
-            "pdfUrl": "https://drive.google.com/file/d/1n7n4LAUnzc7v1zikfgxOyoUbKI2Exh4U/view?usp=sharing"
-        }
     ];
 
     // Filter articles based on search term
