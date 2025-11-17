@@ -54,14 +54,14 @@ function App() {
             "description": "Présentation des concepts de stabilité financière et des réglementations macroprudentielles.",
             "category": "Banque & Réglementation",
             "publishDate": "2022-11-01",
-            "pdfUrl": "https://drive.google.com/file/d/1lEev8RNzOO_kjo9A8BdOC9lfpjmHd4CV/view?usp=sharing"
+            "pdfUrl": "https://drive.google.com/file/d/1vpaMCmFbIj1a2TfSUzJGFzGHNkPf6hVY/view?usp=sharing"
         },
         {
             "title": "Évolution de l'Économie Algérienne (1985-2014) - Une analyse macroéconomique (Présentation)",
             "description": "Analyse macroéconomique des périodes de crise, de stabilisation et de relance en Algérie.",
             "category": "Économie",
             "publishDate": "2016-12-01",
-            "pdfUrl": "https://drive.google.com/file/d/1545PFaOPDmTQBnkT94SaybHvUzMVitBI/view?usp=sharing"
+            "pdfUrl": "https://drive.google.com/file/d/1U9QS2G9MK6KiNrnzAfjYjCL4ruRKnuP_/view?usp=sharing"
         },
         {
             "title": "Le Contrôle Interne - Application au Cas Algérien",
@@ -194,42 +194,42 @@ function App() {
             "description": "Présentation du cadre réglementaire prudentiel bancaire en Algérie et des normes internationales.",
             "category": "Banque & Réglementation",
             "publishDate": "2018-01-01",
-            "pdfUrl": "https://drive.google.com/file/d/1pwN3X_WJ5iNOGxC5QkMaithAXaSo3HtV/view?usp=sharing"
+            "pdfUrl": "https://drive.google.com/file/d/1n8bP00W5_zlub_CRhsBibKPfkItzSWzF/view?usp=sharing"
         },
         {
             "title": "Cadre institutionnele et légal du contrôle et de supervision de l'activité bancaire (Présentation)",
             "description": "Présentation des structures réglementaires encadrant le secteur bancaire en Algérie.",
             "category": "Banque & Réglementation",
             "publishDate": "2018-01-01",
-            "pdfUrl": "https://drive.google.com/file/d/12vNH_VtvwoiK2jb1gGdUjzLGtXQGchLP/view?usp=drive_link"
+            "pdfUrl": "https://drive.google.com/file/d/1GnAnuF6Jg_fu8DDbOfr6RpMBCC8WdCJK/view?usp=sharing"
         },
         {
             "title": "Macroéconomie Générale (Présentation)",
             "description": "Présentation des bases de la macroéconomie et des analyses économiques.",
             "category": "Économie",
             "publishDate": "2018-01-01",
-            "pdfUrl": "https://drive.google.com/file/d/1aWeVrivpHcPpKTDWGW4TI2K4mDAxhB8y/view?usp=drive_link"
+            "pdfUrl": "https://drive.google.com/file/d/1fixsAJgg0DVNyJ7WXr4AE06-jTh_NINB/view?usp=sharing"
         },
         {
             "title": "Contrôle Interne Bancaire (Présentation)",
             "description": "Explication du cadre légal et des bonnes pratiques en matière de contrôle interne bancaire.",
             "category": "Audit & Contrôle",
             "publishDate": "2018-01-01",
-            "pdfUrl": "https://drive.google.com/file/d/17Dh47qrOdj0RGDz07OuqIK36QQOKeOFN/view?usp=sharing"
+            "pdfUrl": "https://drive.google.com/file/d/1vK_RiuK0STeTfjM5Xd8cTrf4RgPi5hUp/view?usp=sharing"
         },
         {
             "title": "Modèle AS-AD et Courbe de Phillips (Présentation)",
             "description": "Analyse approfondie du modèle macroéconomique AS-AD et de la courbe de Phillips.",
             "category": "Économie",
             "publishDate": "2018-01-01",
-            "pdfUrl": "https://drive.google.com/file/d/1KgnuBXG6HE2KYX9nehLgEoC09Fx2O137/view?usp=sharing"
+            "pdfUrl": "https://drive.google.com/file/d/1-gP5dX53vkvs1sqF4scjzyu4Dj2E-fRh/view?usp=sharing"
         },
         {
             "title": "Les Trois Phases de Développement du Système Bancaire et Monétaire Algérien (Présentation)",
             "description": "Analyse historique du système bancaire et monétaire algérien entre 1962 et 2012.",
             "category": "Histoire Économique, Banque & Économie",
             "publishDate": "2012-12-08",
-            "pdfUrl": "https://drive.google.com/file/d/1FNcDgdZ-ec3eqRDKqV8RbncLLglzdVR8/view?usp=sharing"
+            "pdfUrl": "https://drive.google.com/file/d/1SejLBgY6eiY8vaOJHEeN3UDMml07IO_V/view?usp=sharing"
         },
     ];
 
