@@ -29,22 +29,29 @@ function App() {
             "pdfUrl": "https://drive.google.com/file/d/1n7n4LAUnzc7v1zikfgxOyoUbKI2Exh4U/view?usp=sharing"
         },
         {
-            "title": "Conférences sur la théorie macroéconomique - Tome 1",
-            "description": "Théories et modèles d'équilibre et de déséquilibre (Publié par l'OPU).",
+            "title": "محاضرات في التحليل الإقتصادي الكلي",
+            "description": "نظريات ونماذج التوازن و اللاتوازن (منشورات برتي).",
+            "category": "Macroéconomie",
+            "publishDate": "2003-01-01",
+            "pdfUrl": "https://drive.google.com/file/d/1_E-6Sdkq7nDL8P1JYawwdTeV9X64Td7I/view?usp=sharing"
+        },
+        {
+            "title": "محاضرات في النظرية الإقتصادية الكلية - الجزء الأول",
+            "description": "نظريات ونماذج التوازن و اللاتوازن (ديوان المطبوعات الجامعية).",
             "category": "Macroéconomie",
             "publishDate": "2003-01-01",
             "pdfUrl": "https://drive.google.com/file/d/1MQr2eCa_GFHE0IMymnLidI6UFpXPOEKh/view?usp=sharing"
         },
         {
-            "title": "Conférences sur la théorie macroéconomique - Tome 2",
-            "description": "Principales fonctions macroéconomiques du secteur réel (Publié par l'OPU).",
+            "title": "محاضرات في النظرية الإقتصادية الكلية - الجزء الثاني",
+            "description": "الدوال الإقتصادية الكلية الأساسية - القطاع الحقيقي (ديوان المطبوعات الجامعية).",
             "category": "Macroéconomie",
             "publishDate": "2003-01-01",
             "pdfUrl": "https://drive.google.com/file/d/1Lc9O5wBr0xfUGGIdDb9VJMJ8YGWEjgX6/view?usp=sharing"
         },
         {
-            "title": "Conférences sur la théorie macroéconomique - Tome 3",
-            "description": "Principales fonctions macroéconomiques du secteur monétaire (Publié par l'OPU).",
+            "title": "محاضرات في النظرية الإقتصادية الكلية - الجزء الثالث",
+            "description": "الدوال الإقتصادية الكلية الأساسية - القطاع النقدي (ديوان المطبوعات الجامعية).",
             "category": "Macroéconomie",
             "publishDate": "2003-01-01",
             "pdfUrl": "https://drive.google.com/file/d/1CiAW2N3C40nUjo6VslSi-2C8zs9DvSG2/view?usp=sharing"
@@ -57,7 +64,7 @@ function App() {
             "pdfUrl": "https://drive.google.com/file/d/1y5N9yBJ3HZ76qXmNXvdhOQnJQ44ntf6u/view?usp=sharing"
         },
         {
-            "title": "Nécessité, opportunité et possibilité d’activation du mécanisme de couverture du risque de change en Algérie",
+            "title": "Nécessité, opportunité et possibilité d’activation du mécanisme de couverture du risque de changes en Algérie",
             "description": "Discussion sur la nécessité, les opportunités et la faisabilité d'un mécanisme de couverture du risque de change pour les entreprises et banques algériennes.",
             "category": "Finance internationale",
             "publishDate": "2016-03-31",
