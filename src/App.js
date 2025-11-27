@@ -64,7 +64,7 @@ function App() {
             "pdfUrl": "https://drive.google.com/file/d/1y5N9yBJ3HZ76qXmNXvdhOQnJQ44ntf6u/view?usp=sharing"
         },
         {
-            "title": "Nécessité, opportunité et possibilité d’activation du mécanisme de couverture du risque de changes en Algérie",
+            "title": "Nécessité, opportunité et possibilité d’activation du mécanisme de couverture du risque de change en Algérie",
             "description": "Discussion sur la nécessité, les opportunités et la faisabilité d'un mécanisme de couverture du risque de change pour les entreprises et banques algériennes.",
             "category": "Finance internationale",
             "publishDate": "2016-03-31",
