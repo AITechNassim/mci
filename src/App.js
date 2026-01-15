@@ -22,6 +22,7 @@ function App() {
     // Your articles data
     const articles = [
         {
+            "id": "internationalisation-capital-industrialisation",
             "title": "Internationalisation du Capital et Industrialisation du Tiers-monde",
             "description": "Un essai de reformulation de la problématique du sous-développement à travers l'exemple algérien.",
             "category": "Économie monétaire",
@@ -29,6 +30,7 @@ function App() {
             "pdfUrl": "https://drive.google.com/file/d/1n7n4LAUnzc7v1zikfgxOyoUbKI2Exh4U/view?usp=sharing"
         },
         {
+            "id": "muhadarat-tahlil-iqtisadi-kuli",
             "title": "محاضرات في التحليل الإقتصادي الكلي",
             "description": "نظريات ونماذج التوازن و اللاتوازن (منشورات برتي).",
             "category": "Macroéconomie",
@@ -36,6 +38,7 @@ function App() {
             "pdfUrl": "https://drive.google.com/file/d/1_E-6Sdkq7nDL8P1JYawwdTeV9X64Td7I/view?usp=sharing"
         },
         {
+            "id": "muhadarat-nazariya-iqtisadiya-part1",
             "title": "محاضرات في النظرية الإقتصادية الكلية - الجزء الأول",
             "description": "نظريات ونماذج التوازن و اللاتوازن (ديوان المطبوعات الجامعية).",
             "category": "Macroéconomie",
@@ -43,6 +46,7 @@ function App() {
             "pdfUrl": "https://drive.google.com/file/d/1MQr2eCa_GFHE0IMymnLidI6UFpXPOEKh/view?usp=sharing"
         },
         {
+            "id": "muhadarat-nazariya-iqtisadiya-part2",
             "title": "محاضرات في النظرية الإقتصادية الكلية - الجزء الثاني",
             "description": "الدوال الإقتصادية الكلية الأساسية - القطاع الحقيقي (ديوان المطبوعات الجامعية).",
             "category": "Macroéconomie",
@@ -50,6 +54,7 @@ function App() {
             "pdfUrl": "https://drive.google.com/file/d/1Lc9O5wBr0xfUGGIdDb9VJMJ8YGWEjgX6/view?usp=sharing"
         },
         {
+            "id": "muhadarat-nazariya-iqtisadiya-part3",
             "title": "محاضرات في النظرية الإقتصادية الكلية - الجزء الثالث",
             "description": "الدوال الإقتصادية الكلية الأساسية - القطاع النقدي (ديوان المطبوعات الجامعية).",
             "category": "Macroéconomie",
@@ -57,13 +62,15 @@ function App() {
             "pdfUrl": "https://drive.google.com/file/d/1CiAW2N3C40nUjo6VslSi-2C8zs9DvSG2/view?usp=sharing"
         },
         {
-            "title": "Proposition d’un nouveau circuit de financement des politiques socio-économiques de l’Etat",
+            "id": "proposition-circuit-financement",
+            "title": "Proposition d'un nouveau circuit de financement des politiques socio-économiques de l'Etat",
             "description": "Analyse du système bancaire public algérien et proposition d'un nouveau circuit de financement des politiques socio-économiques de l'État par la création d'un établissement financier spécialisé, permettant enfin une vraie réforme des banques publiques.",
             "category": "Banque et Finance",
             "publishDate": "2026-01-15",
             "pdfUrl": "https://drive.google.com/file/d/1z4ndmQrtUKVLQqJ7zZIe1TmXJJGGrVBh/view?usp=sharing"
         },
         {
+            "id": "controle-interne-algerie",
             "title": "Le Contrôle Interne - Application au Cas Algérien",
             "description": "Une étude du contrôle interne dans le secteur bancaire algérien, son cadre légal et ses implications.",
             "category": "Banque et Finance",
@@ -71,13 +78,15 @@ function App() {
             "pdfUrl": "https://drive.google.com/file/d/1y5N9yBJ3HZ76qXmNXvdhOQnJQ44ntf6u/view?usp=sharing"
         },
         {
-            "title": "Nécessité, opportunité et possibilité d’activation du mécanisme de couverture du risque de change en Algérie",
+            "id": "couverture-risque-change",
+            "title": "Nécessité, opportunité et possibilité d'activation du mécanisme de couverture du risque de change en Algérie",
             "description": "Discussion sur la nécessité, les opportunités et la faisabilité d'un mécanisme de couverture du risque de change pour les entreprises et banques algériennes.",
             "category": "Finance internationale",
             "publishDate": "2016-03-31",
             "pdfUrl": "https://drive.google.com/file/d/1AJrDwxRps8yvAaNsI02HqWZrrl57B7rm/view?usp=sharing"
         },
         {
+            "id": "comite-audit-reglement",
             "title": "Mise en Place du Comité d'Audit Selon le Règlement 11-08",
             "description": "Analyse des dispositions réglementaires concernant la création du Comité d'Audit dans les banques.",
             "category": "Audit & Contrôle",
@@ -85,6 +94,7 @@ function App() {
             "pdfUrl": "https://drive.google.com/file/d/1QnK1vIbaYRi3EVfbnT-b9JQCIiqVWGk4/view?usp=sharing"
         },
         {
+            "id": "incoherences-reglementation-prudentielle",
             "title": "Incohérences de la Réglementation Prudentielle Algérienne",
             "description": "Analyse critique des incohérences dans la nouvelle réglementation prudentielle des banques en Algérie.",
             "category": "Banque et Finance",
@@ -92,6 +102,7 @@ function App() {
             "pdfUrl": "https://drive.google.com/file/d/1viepBYiELC7NV5G0LkhZMFc9YiprSo65/view?usp=sharing"
         },
         {
+            "id": "mecanisme-offre-monnaie",
             "title": "Le Mécanisme d'Offre de Monnaie en Situation d'Excès Structurel de Liquidités",
             "description": "Une analyse de l'offre de monnaie en Algérie et des mécanismes économiques sous-jacents.",
             "category": "Économie Monétaire",
@@ -99,6 +110,7 @@ function App() {
             "pdfUrl": "https://drive.google.com/file/d/1_9CtZVRS7L13gT1QnTYe4tD68JTE4mBt/view?usp=sharing"
         },
         {
+            "id": "modele-dsge-algerie",
             "title": "Modèle Macroéconomique DSGE pour l'Algérie",
             "description": "Présentation d'un modèle macroéconomique DSGE appliqué à l'économie algérienne.",
             "category": "Macroéconomie",
@@ -106,6 +118,7 @@ function App() {
             "pdfUrl": "https://drive.google.com/file/d/19Bi7itv4G-AX3P09dfUHVxnlP8R4_-e4/view?usp=sharing"
         },
         {
+            "id": "trois-phases-systeme-bancaire-article",
             "title": "Les Trois Phases du Développement du Système Bancaire et Monétaire Algérien (Article)",
             "description": "Une étude historique des évolutions du système bancaire algérien de 1962 à 2012.",
             "category": "Histoire Économique, Banque & Économie",
@@ -113,6 +126,7 @@ function App() {
             "pdfUrl": "https://drive.google.com/file/d/1mqX58Spn6J8EYuUPl-dvoTYrldDjoId_/view?usp=sharing"
         },
         {
+            "id": "change-a-terme",
             "title": "Nécessité et Possibilité de Mise en Place du Mécanisme de Change à Terme",
             "description": "Discussion sur la nécessité de la couverture du risque de change et la faisabilité de sa mise en place en Algérie.",
             "category": "Finance Internationale",
@@ -120,6 +134,7 @@ function App() {
             "pdfUrl": "https://drive.google.com/file/d/1EjwstzJxHR5v9tXCHYymfymRfwozXeTQ/view?usp=sharing"
         },
         {
+            "id": "equilibre-marche-monnaie",
             "title": "L'équilibre du Marché de la Monnaie",
             "description": "Présentation des théories de l'offre et de la demande de monnaie ainsi que les mécanismes d'équilibre du marché monétaire.",
             "category": "Macroéconomie",
@@ -127,6 +142,7 @@ function App() {
             "pdfUrl": "https://drive.google.com/file/d/1FmoLOuCoWAQiIdEqXiTRBi6qeCFH-BIU/view?usp=sharing"
         },
         {
+            "id": "fonction-consommation",
             "title": "La Fonction de Consommation",
             "description": "Étude macroéconomique sur la fonction de consommation et ses déterminants en Algérie.",
             "category": "Macroéconomie",
@@ -134,6 +150,7 @@ function App() {
             "pdfUrl": "https://drive.google.com/file/d/1udcK3RCxkOeaIbRkyCI0XVozEoTp2-4b/view?usp=sharing"
         },
         {
+            "id": "independance-banque-algerie",
             "title": "De l'Indépendance de la Banque d'Algérie",
             "description": "Analyse des enjeux institutionnels et économiques liés à l'indépendance de la Banque d'Algérie.",
             "category": "Banque et finance",
@@ -141,6 +158,7 @@ function App() {
             "pdfUrl": "https://drive.google.com/file/d/188He9QWJARkGjrHusHttPnOrsi3aD0Ff/view?usp=sharing"
         },
         {
+            "id": "politique-change-algerie",
             "title": "De la Politique de Change en Algérie",
             "description": "Synthèse de l'évolution de la politique des changes en Algérie entre 1962 et 2009, mettant en évidence les grandes ruptures et ajustements.",
             "category": "Économie monétaire",
@@ -148,6 +166,7 @@ function App() {
             "pdfUrl": "https://drive.google.com/file/d/1GKYfLhjUgDowCmv2RKzCeiFHehmsNn7l/view?usp=sharing"
         },
         {
+            "id": "canaux-transmission-politique-monetaire",
             "title": "Canaux de Transmission de la Politique Monétaire en Algérie",
             "description": "Analyse des mécanismes de transmission de la politique monétaire en Algérie entre 1990 et 2008, avec une emphase sur le canal du crédit bancaire.",
             "category": "Économie monétaire",
@@ -155,6 +174,7 @@ function App() {
             "pdfUrl": "https://drive.google.com/file/d/133YNvNChosLbtWFDK3atrNyFhES2DlOx/view?usp=sharing"
         },
         {
+            "id": "taux-change-reel-dinar",
             "title": "Taux de Change Réel du Dinar Algérien",
             "description": "Analyse du taux de change réel d'équilibre et des phénomènes économiques associés en Algérie.",
             "category": "Économie Monétaire",
@@ -162,6 +182,7 @@ function App() {
             "pdfUrl": "https://drive.google.com/file/d/1zPdqcahSnl4P6WDCgGv72VxkigLNsGLD/view?usp=sharing"
         },
         {
+            "id": "incidence-crise-financiere",
             "title": "L'incidence de la Crise Financière sur l'Algérie",
             "description": "Analyse des effets de la crise financière internationale de 2007-2008 sur l'économie algérienne.",
             "category": "Économie internationale",
@@ -169,6 +190,7 @@ function App() {
             "pdfUrl": "https://drive.google.com/file/d/1PH5oxfy02hKFpSivq2pMYd3qYWgQC1KO/view?usp=sharing"
         },
         {
+            "id": "taux-change-dinar-politique-gestion",
             "title": "Taux de Change du Dinar Algérien : Politique et Gestion",
             "description": "Étude des politiques et de la gestion du taux de change du dinar algérien.",
             "category": "Économie Monétaire",
@@ -176,6 +198,7 @@ function App() {
             "pdfUrl": "https://drive.google.com/file/d/18UHQgmEKraNXntsHtkzohE8B3UQXkHFI/view?usp=sharing"
         },
         {
+            "id": "independance-banque-centrale-transition",
             "title": "Indépendance de la Banque Centrale d'une Économie en Transition",
             "description": "Étude sur l'indépendance de la Banque Centrale d'Algérie dans le contexte de la transition économique du pays.",
             "category": "Banque et finance",
@@ -183,6 +206,7 @@ function App() {
             "pdfUrl": "https://drive.google.com/file/d/1Jvd50QUUxPlddnogDgFnmboq8VAEKeeJ/view?usp=sharing"
         },
         {
+            "id": "efficacite-politique-monetaire-1990-2006",
             "title": "Efficacité de la Politique Monétaire en Algérie (1990-2006)",
             "description": "Analyse critique de l'efficacité de la politique monétaire algérienne durant la transition vers l'économie de marché.",
             "category": "Économie monétaire",
@@ -190,6 +214,7 @@ function App() {
             "pdfUrl": "https://drive.google.com/file/d/1Lksj5XiQgG2nhcE--MQ9OVzwrneYHYD1/view?usp=sharing"
         },
         {
+            "id": "politiques-monetaire-macroprudentielle-presentation",
             "title": "Politiques monétaire et macroprudentielle (Présentation)",
             "description": "Présentation des concepts de stabilité financière et des réglementations macroprudentielles.",
             "category": "Banque & Réglementation",
@@ -197,6 +222,7 @@ function App() {
             "pdfUrl": "https://drive.google.com/file/d/1vpaMCmFbIj1a2TfSUzJGFzGHNkPf6hVY/view?usp=sharing"
         },
         {
+            "id": "supervision-controle-bancaires-presentation",
             "title": "Supervision et contrôle Bancaires (Présentation)",
             "description": "Présentation du cadre réglementaire prudentiel bancaire en Algérie et des normes internationales.",
             "category": "Banque & Réglementation",
@@ -204,6 +230,7 @@ function App() {
             "pdfUrl": "https://drive.google.com/file/d/1n8bP00W5_zlub_CRhsBibKPfkItzSWzF/view?usp=sharing"
         },
         {
+            "id": "cadre-institutionnel-supervision-bancaire-presentation",
             "title": "Cadre institutionnele et légal du contrôle et de supervision de l'activité bancaire (Présentation)",
             "description": "Présentation des structures réglementaires encadrant le secteur bancaire en Algérie.",
             "category": "Banque & Réglementation",
@@ -211,6 +238,7 @@ function App() {
             "pdfUrl": "https://drive.google.com/file/d/1GnAnuF6Jg_fu8DDbOfr6RpMBCC8WdCJK/view?usp=sharing"
         },
         {
+            "id": "macroeconomie-generale-presentation",
             "title": "Macroéconomie Générale (Présentation)",
             "description": "Présentation des bases de la macroéconomie et des analyses économiques.",
             "category": "Économie",
@@ -218,6 +246,7 @@ function App() {
             "pdfUrl": "https://drive.google.com/file/d/1fixsAJgg0DVNyJ7WXr4AE06-jTh_NINB/view?usp=sharing"
         },
         {
+            "id": "controle-interne-bancaire-presentation",
             "title": "Contrôle Interne Bancaire (Présentation)",
             "description": "Explication du cadre légal et des bonnes pratiques en matière de contrôle interne bancaire.",
             "category": "Audit & Contrôle",
@@ -225,6 +254,7 @@ function App() {
             "pdfUrl": "https://drive.google.com/file/d/1vK_RiuK0STeTfjM5Xd8cTrf4RgPi5hUp/view?usp=sharing"
         },
         {
+            "id": "modele-as-ad-phillips-presentation",
             "title": "Modèle AS-AD et Courbe de Phillips (Présentation)",
             "description": "Analyse approfondie du modèle macroéconomique AS-AD et de la courbe de Phillips.",
             "category": "Économie",
@@ -232,6 +262,7 @@ function App() {
             "pdfUrl": "https://drive.google.com/file/d/1-gP5dX53vkvs1sqF4scjzyu4Dj2E-fRh/view?usp=sharing"
         },
         {
+            "id": "evolution-economie-algerienne-1985-2014-presentation",
             "title": "Évolution de l'Économie Algérienne (1985-2014) - Une analyse macroéconomique (Présentation)",
             "description": "Analyse macroéconomique des périodes de crise, de stabilisation et de relance en Algérie.",
             "category": "Économie",
@@ -239,6 +270,7 @@ function App() {
             "pdfUrl": "https://drive.google.com/file/d/1U9QS2G9MK6KiNrnzAfjYjCL4ruRKnuP_/view?usp=sharing"
         },
         {
+            "id": "trois-phases-systeme-bancaire-presentation",
             "title": "Les Trois Phases de Développement du Système Bancaire et Monétaire Algérien (Présentation)",
             "description": "Analyse historique du système bancaire et monétaire algérien entre 1962 et 2012.",
             "category": "Histoire Économique, Banque & Économie",
@@ -310,7 +342,7 @@ function App() {
                     {/* Articles Grid */}
                     <div className="grid gap-6">
                         {filteredArticles.map(article => (
-                            <Card className="bg-white border border-gray-200 rounded-2xl hover:border-gray-300 transition-all py-4 px-4">
+                            <Card key={article.id} id={article.id} className="bg-white border border-gray-200 rounded-2xl hover:border-gray-300 transition-all py-4 px-4">
                                 <CardHeader>
                                     <div className="flex flex-col md:flex-row justify-between items-start gap-4">
                                         <div className="space-y-2">
