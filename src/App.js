@@ -57,6 +57,13 @@ function App() {
             "pdfUrl": "https://drive.google.com/file/d/1CiAW2N3C40nUjo6VslSi-2C8zs9DvSG2/view?usp=sharing"
         },
         {
+            "title": "Proposition d’un nouveau circuit de financement des politiques socio-économiques de l’Etat",
+            "description": "Analyse du système bancaire public algérien et proposition d'un nouveau circuit de financement des politiques socio-économiques de l'État par la création d'un établissement financier spécialisé, permettant enfin une vraie réforme des banques publiques.",
+            "category": "Banque et Finance",
+            "publishDate": "2026-01-15",
+            "pdfUrl": "https://drive.google.com/file/d/1z4ndmQrtUKVLQqJ7zZIe1TmXJJGGrVBh/view?usp=sharing"
+        },
+        {
             "title": "Le Contrôle Interne - Application au Cas Algérien",
             "description": "Une étude du contrôle interne dans le secteur bancaire algérien, son cadre légal et ses implications.",
             "category": "Banque et Finance",
