@@ -1,11 +1,21 @@
 // src/App.js
 import React, {useState} from 'react';
-import {Download, Search, Mail, Github, Linkedin} from 'lucide-react';
+import {Download, Search, Mail, Linkedin} from 'lucide-react';
 import {Card, CardContent, CardDescription, CardHeader, CardTitle} from './components/ui/card';
 
 function App() {
     const [searchTerm, setSearchTerm] = useState('');
     const [showFullBio, setShowFullBio] = useState(false);
+
+    // GTM event tracking helper
+    const trackEvent = (eventName, eventParams = {}) => {
+        if (window.dataLayer) {
+            window.dataLayer.push({
+                event: eventName,
+                ...eventParams
+            });
+        }
+    };
 
     // Your author information
     const authorInfo = {
@@ -27,7 +37,8 @@ function App() {
             "description": "Un essai de reformulation de la problématique du sous-développement à travers l'exemple algérien.",
             "category": "Économie monétaire",
             "publishDate": "1981-01-01",
-            "pdfUrl": "https://drive.google.com/file/d/1n7n4LAUnzc7v1zikfgxOyoUbKI2Exh4U/view?usp=sharing"
+            "pdfUrl": "https://drive.google.com/file/d/1n7n4LAUnzc7v1zikfgxOyoUbKI2Exh4U/view?usp=sharing",
+            "downloadable": false
         },
         {
             "id": "muhadarat-tahlil-iqtisadi-kuli",
@@ -299,7 +310,10 @@ function App() {
                                 {showFullBio ? authorInfo.fullBio : authorInfo.shortBio}
                             </p>
                             <button
-                                onClick={() => setShowFullBio(!showFullBio)}
+                                onClick={() => {
+                                    setShowFullBio(!showFullBio);
+                                    trackEvent('toggle_bio', { action: !showFullBio ? 'expand' : 'collapse' });
+                                }}
                                 className="text-gray-600 hover:text-gray-900 underline transition-colors"
                             >
                                 {showFullBio ? 'Voir moins' : 'Voir plus'}
@@ -307,12 +321,14 @@ function App() {
 
                             <div className="flex gap-4 mt-4">
                                 <a href={`mailto:${authorInfo.socialLinks.email}`}
+                                   onClick={() => trackEvent('social_click', { platform: 'email' })}
                                    className="text-gray-600 hover:text-gray-900 transition-colors">
                                     <Mail size={24}/>
                                 </a>
                                 <a href={authorInfo.socialLinks.linkedin}
                                    target="_blank"
                                    rel="noopener noreferrer"
+                                   onClick={() => trackEvent('social_click', { platform: 'linkedin' })}
                                    className="text-gray-600 hover:text-gray-900 transition-colors">
                                     <Linkedin size={24}/>
                                 </a>
@@ -362,14 +378,22 @@ function App() {
                                     <CardDescription className="text-gray-600 mb-6">
                                         {article.description}
                                     </CardDescription>
-                                    <div className="flex justify-end">
-                                        <button
-                                            className="flex items-center gap-2 px-5 py-2.5 bg-gray-900 text-white rounded-xl hover:bg-gray-800 transition-colors duration-300"
-                                            onClick={() => window.open(article.pdfUrl, '_blank')}
-                                        >
-                                            <Download size={16}/>
-                                            Download PDF
-                                        </button>
+                                    <div className="flex justify-end min-h-[44px]">
+                                        {article.downloadable !== false && (
+                                            <button
+                                                className="flex items-center gap-2 px-5 py-2.5 bg-gray-900 text-white rounded-xl hover:bg-gray-800 transition-colors duration-300"
+                                                onClick={() => {
+                                                    trackEvent('download_article', { 
+                                                        article_id: article.id, 
+                                                        article_title: article.title 
+                                                    });
+                                                    window.open(article.pdfUrl, '_blank');
+                                                }}
+                                            >
+                                                <Download size={16}/>
+                                                Download PDF
+                                            </button>
+                                        )}
                                     </div>
                                 </CardContent>
                             </Card>
