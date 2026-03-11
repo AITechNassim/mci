@@ -1,7 +1,7 @@
 // src/App.js
-import React, {useState} from 'react';
-import {Download, Search, Mail, Linkedin} from 'lucide-react';
-import {Card, CardContent, CardDescription, CardHeader, CardTitle} from './components/ui/card';
+import React, { useState } from 'react';
+import { Download, Search, Mail, Linkedin } from 'lucide-react';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from './components/ui/card';
 
 function App() {
     const [searchTerm, setSearchTerm] = useState('');
@@ -37,8 +37,7 @@ function App() {
             "description": "Un essai de reformulation de la problématique du sous-développement à travers l'exemple algérien.",
             "category": "Économie monétaire",
             "publishDate": "1981-01-01",
-            "pdfUrl": "https://drive.google.com/file/d/1n7n4LAUnzc7v1zikfgxOyoUbKI2Exh4U/view?usp=sharing",
-            "downloadable": false
+            "pdfUrl": "https://drive.google.com/file/d/1n7n4LAUnzc7v1zikfgxOyoUbKI2Exh4U/view?usp=sharing"
         },
         {
             "id": "muhadarat-tahlil-iqtisadi-kuli",
@@ -46,7 +45,8 @@ function App() {
             "description": "نظريات ونماذج التوازن و اللاتوازن (منشورات برتي).",
             "category": "Macroéconomie",
             "publishDate": "2003-01-01",
-            "pdfUrl": "https://drive.google.com/file/d/1_E-6Sdkq7nDL8P1JYawwdTeV9X64Td7I/view?usp=sharing"
+            "pdfUrl": "https://drive.google.com/file/d/1_E-6Sdkq7nDL8P1JYawwdTeV9X64Td7I/view?usp=sharing",
+            "downloadable": false
         },
         {
             "id": "muhadarat-nazariya-iqtisadiya-part1",
@@ -54,7 +54,8 @@ function App() {
             "description": "نظريات ونماذج التوازن و اللاتوازن (ديوان المطبوعات الجامعية).",
             "category": "Macroéconomie",
             "publishDate": "2003-01-01",
-            "pdfUrl": "https://drive.google.com/file/d/1MQr2eCa_GFHE0IMymnLidI6UFpXPOEKh/view?usp=sharing"
+            "pdfUrl": "https://drive.google.com/file/d/1MQr2eCa_GFHE0IMymnLidI6UFpXPOEKh/view?usp=sharing",
+            "downloadable": false
         },
         {
             "id": "muhadarat-nazariya-iqtisadiya-part2",
@@ -62,7 +63,8 @@ function App() {
             "description": "الدوال الإقتصادية الكلية الأساسية - القطاع الحقيقي (ديوان المطبوعات الجامعية).",
             "category": "Macroéconomie",
             "publishDate": "2003-01-01",
-            "pdfUrl": "https://drive.google.com/file/d/1Lc9O5wBr0xfUGGIdDb9VJMJ8YGWEjgX6/view?usp=sharing"
+            "pdfUrl": "https://drive.google.com/file/d/1Lc9O5wBr0xfUGGIdDb9VJMJ8YGWEjgX6/view?usp=sharing",
+            "downloadable": false
         },
         {
             "id": "muhadarat-nazariya-iqtisadiya-part3",
@@ -70,7 +72,8 @@ function App() {
             "description": "الدوال الإقتصادية الكلية الأساسية - القطاع النقدي (ديوان المطبوعات الجامعية).",
             "category": "Macroéconomie",
             "publishDate": "2003-01-01",
-            "pdfUrl": "https://drive.google.com/file/d/1CiAW2N3C40nUjo6VslSi-2C8zs9DvSG2/view?usp=sharing"
+            "pdfUrl": "https://drive.google.com/file/d/1CiAW2N3C40nUjo6VslSi-2C8zs9DvSG2/view?usp=sharing",
+            "downloadable": false
         },
         {
             "id": "proposition-circuit-financement",
@@ -321,16 +324,16 @@ function App() {
 
                             <div className="flex gap-4 mt-4">
                                 <a href={`mailto:${authorInfo.socialLinks.email}`}
-                                   onClick={() => trackEvent('social_click', { platform: 'email' })}
-                                   className="text-gray-600 hover:text-gray-900 transition-colors">
-                                    <Mail size={24}/>
+                                    onClick={() => trackEvent('social_click', { platform: 'email' })}
+                                    className="text-gray-600 hover:text-gray-900 transition-colors">
+                                    <Mail size={24} />
                                 </a>
                                 <a href={authorInfo.socialLinks.linkedin}
-                                   target="_blank"
-                                   rel="noopener noreferrer"
-                                   onClick={() => trackEvent('social_click', { platform: 'linkedin' })}
-                                   className="text-gray-600 hover:text-gray-900 transition-colors">
-                                    <Linkedin size={24}/>
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    onClick={() => trackEvent('social_click', { platform: 'linkedin' })}
+                                    className="text-gray-600 hover:text-gray-900 transition-colors">
+                                    <Linkedin size={24} />
                                 </a>
                             </div>
                         </div>
@@ -345,7 +348,7 @@ function App() {
 
                     {/* Search Bar */}
                     <div className="relative max-w-xl mx-auto mb-8">
-                        <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" size={20}/>
+                        <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" size={20} />
                         <input
                             type="text"
                             placeholder="Rechercher des articles par titre, description ou catégorie..."
@@ -370,8 +373,8 @@ function App() {
                                             </p>
                                         </div>
                                         <span className="inline-block px-3 py-1 text-sm font-medium text-gray-600 bg-gray-100 rounded-full">
-                      {article.category}
-                    </span>
+                                            {article.category}
+                                        </span>
                                     </div>
                                 </CardHeader>
                                 <CardContent>
@@ -383,14 +386,14 @@ function App() {
                                             <button
                                                 className="flex items-center gap-2 px-5 py-2.5 bg-gray-900 text-white rounded-xl hover:bg-gray-800 transition-colors duration-300"
                                                 onClick={() => {
-                                                    trackEvent('download_article', { 
-                                                        article_id: article.id, 
-                                                        article_title: article.title 
+                                                    trackEvent('download_article', {
+                                                        article_id: article.id,
+                                                        article_title: article.title
                                                     });
                                                     window.open(article.pdfUrl, '_blank');
                                                 }}
                                             >
-                                                <Download size={16}/>
+                                                <Download size={16} />
                                                 Download PDF
                                             </button>
                                         )}
